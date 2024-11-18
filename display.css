@@ -1,0 +1,17 @@
+.ph{
+    width: 150px;
+}
+
+@media (max-width: 650px){
+    .box{
+        font-size: 1.5rem;
+        padding: 10px;
+        text-align: center;
+    }
+    .cum{
+        display: block;
+    }
+    .form-row{
+        display: block;
+    }
+}

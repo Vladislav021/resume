@@ -1,0 +1,88 @@
+.hobi{
+    border: 5px;
+    border-radius: 20px;
+    background-color: #5D7279;
+    padding: 15px;
+    box-shadow: 14px 15px 14px rgba(0, 0, 0, 0.25);
+}
+.job{
+    border: 5px;
+    border-radius: 20px;
+    background-color: #A6B6A9;
+    padding: 15px;
+    box-shadow: 14px 15px 14px rgba(0, 0, 0, 0.25);
+    
+    
+    
+}
+.course{
+    border: 5px;
+    border-radius: 20px;
+    background-color: #91883b;
+    padding: 15px;
+    box-shadow: 14px 15px 14px rgba(0, 0, 0, 0.25);
+    
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    background-color: rgb(160, 157, 157);
+    border-radius: 40px;
+    padding: 25px;
+    
+}
+
+.photo{
+    margin-left: 35px;
+   
+}
+.ph{
+    box-shadow: 14px 15px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+.text{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.contacts{
+    border: 5px;
+    border-radius: 20px;
+    background-color: rgb(233, 137, 102);
+    padding: 15px;
+    box-shadow: 14px 15px 14px rgba(0, 0, 0, 0.25);
+}
+
+.pt{
+    display: f;
+}
+.skils{
+    border: 5px;
+    border-radius: 20px;
+    background-color: #bebeb9;
+    padding: 15px;
+    box-shadow: 14px 15px 14px rgba(0, 0, 0, 0.25);
+}
+.png{
+    border: 5px;
+    border-radius: 20px;
+  padding: 15px;
+  background-color: aqua;
+    
+}
+.png2{
+    border: 5px;
+    border-radius: 20px;
+  padding: 15px;
+  background-color: #dd7260;
+    
+}
+.png3{
+    border: 5px;
+    border-radius: 20px;
+  padding: 15px;
+  background-color: #b98922;
+    
+}

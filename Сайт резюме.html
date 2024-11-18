@@ -6,36 +6,57 @@
     <meta name="description" content="Это сайт резюме Владислава Ильюкова">
     <meta name="keywords" content="Vlad, cv, resume">
     <title>Vlad resume</title>
+    <link rel="stylesheet" href="CSS.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="borders.css">
+    <link rel="stylesheet" href="links.css">
+    <link rel="stylesheet" href="lists.css">
+    <link rel="stylesheet" href="display.css">
 </head>
 <body>
-    <img src="imges/photo_2024-11-08_17-39-53.jpg" width="150">
+    <div class="boxs"></div>
+    
+    <div class="container">
+    <div class="cum">
+        <div class="photo">
+    <img class="ph" src="photo.png" width="150">
+</div>
+<div class="text">
     <h1>Владислав Ильюков</h1>
-    <p> Я будущий <strong>frontend разработчик</strong>. <em>Молодой и амбициозный парень</em>. Учусь самостоятельно и считаю что, <strong>чтобы в чем то приуспеть, важна дисциплина!</strong></p>
-    <p> <em> <strong>Всё только начинается!</strong></em></p>
-    <hr>
+    <p> Я обладаю исключительной целеустремлённостью, которая проявляется в каждом моём действии. Я всегда знаю, к чему стремится, и готов преодолевать любые препятствия на пути к своей цели. Настойчивость – одна из ключевых черт моего характера, позволяющая мне добиваться успеха даже там, где другие могут отступить. Упорство помогает мне двигаться вперёд, несмотря на трудности и неудачи, а умственное развитие позволяет находить нестандартные решения сложных задач.</p>
+</div>
+</div>
+
+    
+    
+    
     <p> <strong>Список социальных сетей</strong></p>
     <a href="https://t.me/vlado0202" target="_blank">TELEGRAM</a> 
     |
     <a href="https://t.me/vlado0202" target="_blank">TELEGRAM</a> 
     <hr>
     
-
+<div class="hobi">
     <h1>МОИ ХОББИ</h1>
     <ul>
         <li>Гейминг</li>
         <li>Звукорежиссура</li>
         <li>Кулинария</li>
     </ul>
-    <hr>
-    <table>
-        <thead>
+</div>
+    <br>
+    <div class="job">
+    <h1>Опыт работы</h1>
+    <table class="jobt">
+        <thead class="upr">
         <tr>
             <th>Название</th>
             <th>Должность</th>
             <th>Год</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="upt">
         <tr>
             <td>Мясная империя</td>
             <td>Стажер</td>
@@ -54,23 +75,49 @@
     </tbody>
 
     </table>
-    <hr>
+</div>
+<br>
+<div class="skils">
+    <h1>Навыки</h1>
+    <div class="blok">
+        <img class="png" src="1675463198_gas-kvas-com-p-fonovii-risunok-v-css3-3.png" width="150">
+        <img class="png2" src="HTML5_logo_black.svg.png" width="193">
+        <img class="png3" src="javascript-39394.png" width="193">
+    </div>
+    
+</div>
+<br>
+<div class="course">
+    <h1>Пройденные курсы</h1>
+    <ul>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+    </ul>
+</div>
+    <br>
+    <div class="contacts">
     <h1>Связаться со мной</h1>
-    <div>
+    <div class="form-row">
+    <div class="form-group">
         <label for="text2">Ваше Имя:</label>
         <input type="text" id="text2" placeholder="Введите имя">
     </div>
-    <div>
+    <div class="form-group">
         <label for="email">Ваш email:</label>
         <input type="email" id="email" placeholder="Введите email">
     </div>
-    <br>
-    <div>
+    </div>
+    <div class="form-group">
         <label for="message">Сообщение</label>
         <br>
         <textarea id="message" cols="30" rows="5"></textarea>
     </div>
-    <button type="submit">Отправить</button>
+    <button type="submit" class="btn">Отправить</button>
+</div>
+</div>
+</div>
+</div>
 
 </body>
 </html>

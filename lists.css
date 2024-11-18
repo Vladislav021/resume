@@ -1,0 +1,41 @@
+.upr tr th{
+    margin: 0;
+    text-align: left;
+    background: rgb(135, 173, 135);
+}
+
+.upt tr td{
+    margin-bottom: 10px;
+    margin: 0;
+    text-align: center;
+    background: rgb(135, 155, 135);
+    border-radius: 10px;
+    border-left: 55px;
+    
+}
+
+.course ul li{
+
+    margin: 0;
+    padding: 0;
+    list-style:circle;
+    
+
+}
+
+.hobi ul li{
+    margin-bottom: 10px;
+}
+
+.hobi {
+    text-align: left;
+
+}
+.jobt {
+    width: 100%;
+}
+
+.jobt td {
+    padding-bottom: 8px;
+}
+
